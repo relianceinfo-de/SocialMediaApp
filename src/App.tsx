@@ -6,7 +6,8 @@ import AppUnauthenticated from './app-routes/AppUnauthenticated';
 
 function App() {
   const [userIsLoggedIn, setUserIsLoggedIn] = useState(false);
-
+  // const a = 0;
+  
   if (userIsLoggedIn == true) {
     return (<AppAuthenticated />);
   } else {

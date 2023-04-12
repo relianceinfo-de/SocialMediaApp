@@ -2,7 +2,6 @@
 // dashboard -- auth
 // profile -- auth
 // wallet -- auth
-
 import { Fragment, FunctionComponent } from "react"
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from "../app-modules/Dashboard";
@@ -26,6 +25,9 @@ const AppAuthenticated: FunctionComponent<any> = (props) => {
                 element={<Profile />} //For Profile Pages
                 path="/profile"
             />
+
+
+            
             <Route
                 // element={}
                 path="teams/:teamId"
